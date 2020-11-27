@@ -11,7 +11,7 @@ class Log
         self::$storegePath = $storegePath;
     }
 
-    public static function setAllowdSeverity($allowedSeverity) {
+    public static function setAllowedSeverity($allowedSeverity) {
         self::$allowedSeverity = $allowedSeverity;
     }
     
